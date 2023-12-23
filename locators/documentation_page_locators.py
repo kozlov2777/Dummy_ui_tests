@@ -7,3 +7,7 @@ class DocumentationPageLocators:
     TAG_DATA_CHAPTERS = '//*[@id="__next"]/div/div/div[3]/div/div[1]/div/div[6]/a'
     ERRORS_CHAPTERS = '//*[@id="__next"]/div/div/div[3]/div/div[1]/div/div[7]/a'
     ADD = '//*[@id="__next"]/div/div/div[2]/div/div/a/img'
+    SECTIONS = '//*[@id="__next"]/div/div/div[3]/div/div[1]/div/div'
+    PARAGRAPHS_IN_GETTING_STARTED = '//*[@id="__next"]/div/div/div[3]/div/div[2]/h3'
+    PARAGRAPHS_IN_MODELS = '//*[@id="__next"]/div/div/div[3]/div/div[2]/h3'
+    ANY_PARAGRAPHS = '//*[@id="__next"]/div/div/div[3]/div/div[2]/div'

@@ -3,6 +3,13 @@ from pages.documentation_page import DocumentationPage
 from pages.explorer_page import ExplorerPage
 from pages.main_page import MainPage
 from playwright.sync_api import Page
+from utils.assertions import Assertions
+
+
+@pytest.fixture
+def assertions(page: Page):
+    assertions = Assertions(page)
+    yield assertions
 
 
 @pytest.fixture
